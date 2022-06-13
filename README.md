@@ -15,3 +15,8 @@
 * Graphql vs restAPI
 * How?
 
+#### How
+
+Over-fetching: 불필요한 데이터까지 가져옴
+
+under-fecting: 하나의 정보를 표현하기위해 두개이상의 URL을 접근하는 문제
