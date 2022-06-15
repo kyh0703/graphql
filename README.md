@@ -17,11 +17,6 @@
 
 #### How
 
-<<<<<<< Updated upstream
-Over-fetching: 불필요한 데이터까지 가져옴
-
-under-fecting: 하나의 정보를 표현하기위해 두개이상의 URL을 접근하는 문제
-=======
 * Overfetching: 필요한 데이터외에 데이터들을 받아오는 문제
 * Underfetching: 한개의 정보를 얻기 위해 2개이상의 URL을 접근하는 문제
 
@@ -55,4 +50,9 @@ const server = new ApolloServer({ typeDefs });
 server.listen().then(({ url }) => {
   console.log(`Running on {url}`);
 });
->>>>>>> Stashed changes
+
+```
+
+#### Scalar Type
+
+Graphql에 내장된 타입이다. `ID, String, Int, Boolean` 등등
