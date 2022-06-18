@@ -56,3 +56,15 @@ server.listen().then(({ url }) => {
 #### Scalar Type
 
 Graphql에 내장된 타입이다. `ID, String, Int, Boolean` 등등
+
+#### Query(GET)
+
+유저가 데이터를 얻을려고 하면 Query
+
+#### Mutation(POST, PUT, DELETE)
+
+GraphQL에 대한 대부분은 데이터 fetching이지만, 서버 측 데이터를 수정할 수 있는 방법이 필요합니다. 서버 측 데이터를 수정하는 모든 작업은 mutation을 통해 보내야 한다는 규칙을 설정하는 것이 유용합니다.
+
+#### Not NUllable Fields
+
+`!`을 Null인지 구분한다. 있으면 필수값으로 처리되어야됌
