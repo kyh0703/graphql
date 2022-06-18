@@ -68,3 +68,11 @@ GraphQL에 대한 대부분은 데이터 fetching이지만, 서버 측 데이터
 #### Not NUllable Fields
 
 `!`을 Null인지 구분한다. 있으면 필수값으로 처리되어야됌
+
+#### Resolvers
+
+하나의 객체 타입정의와 같은 형태로 구성되어야 됌 데이터를 반환함
+
+#### Resolver Type
+
+Resolver 함수에는 parent(root or source), args, context, info 의 네 가지 인수가 순서대로 전달됩니다.
