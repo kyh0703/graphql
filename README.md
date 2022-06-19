@@ -76,3 +76,7 @@ GraphQL에 대한 대부분은 데이터 fetching이지만, 서버 측 데이터
 #### Resolver Type
 
 Resolver 함수에는 parent(root or source), args, context, info 의 네 가지 인수가 순서대로 전달됩니다.
+
+#### Client
+
+Altair GraphQL Client
